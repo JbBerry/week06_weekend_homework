@@ -1,0 +1,45 @@
+
+.Tile{
+  height: 80px;
+  width: 80px;
+  border: solid black 1px;
+  vertical-align: middle;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.Button{
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font: 60px bold;
+  font-family:sans-serif;
+  height: 80px;
+  width: 80px;
+  outline: none;
+}
+.Tile0{
+  grid-area: '0';
+}
+.Tile1{
+  grid-area: '1';
+}
+.Tile2{
+  grid-area: '2';
+}
+.Tile3{
+  grid-area: '3';
+}
+.Tile4{
+  grid-area: '4';
+}
+.Tile5{
+  grid-area: '5';
+}
+.Tile6{
+  grid-area: '6';
+}
+.Tile7{
+  grid-area: '7';
+}
+.Tile8{
+  grid-area: '8';
+}
