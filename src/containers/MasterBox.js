@@ -33,7 +33,6 @@ class MasterBox extends Component {
     const player = this.nextPlayer[this.state.currentPlayer]
     this.setState({gameArray: array, currentPlayer: player});
     this.hasSomeoneWon()
-    this.isItADraw()
   }
 
   hasSomeoneWon(){
@@ -58,6 +57,7 @@ class MasterBox extends Component {
       this.setState({winner:array[2]})
       return
     }
+    this.isItADraw()
   }
 
   isItADraw(){

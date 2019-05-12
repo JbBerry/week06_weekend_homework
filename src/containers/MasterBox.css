@@ -1,0 +1,19 @@
+.page{
+  display:grid;
+  grid-template-rows: 80px 300px 100px;
+  grid-template-areas:
+    "Title"
+    "GameBox"
+    "PlayerBox";
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+
+  text-align: center;
+  align-self:center;
+  align-content: center;
+  justify-items: center;
+}
+
+.Title{
+  grid-area: 'Title';
+}

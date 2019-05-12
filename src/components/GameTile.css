@@ -10,36 +10,49 @@
   border: none;
   text-align: center;
   display: inline-block;
-  font: 60px bold;
+  font-size:60px;
+  color: #b30000;
+  font-weight: 900;
   font-family:sans-serif;
   height: 80px;
   width: 80px;
+  text-shadow: -3px 3px #330000;
   outline: none;
+  background-color: rgba(1,1,1,0);
 }
 .Tile0{
   grid-area: '0';
+  background-image: linear-gradient(to bottom, rgba(210, 210, 210,0)40%, rgba(210, 210, 210,0.6));
 }
 .Tile1{
   grid-area: '1';
+  background-image: linear-gradient(to bottom, rgba(170, 210, 210,0)40%, rgba(170, 210, 210,0.6));
 }
 .Tile2{
   grid-area: '2';
+  background-image: linear-gradient(to bottom, rgba(210, 210, 210,0)40%, rgba(210, 210, 210,0.6));
 }
 .Tile3{
   grid-area: '3';
+  background-image: linear-gradient(to bottom, rgba(170, 210, 210,0)40%, rgba(170, 210, 210,0.6));
 }
 .Tile4{
   grid-area: '4';
+  background-image: linear-gradient(to bottom, rgba(210, 210, 210,0)40%, rgba(210, 210, 210,0.6));
 }
 .Tile5{
   grid-area: '5';
+  background-image: linear-gradient(to bottom, rgba(170, 210, 210,0)40%, rgba(170, 210, 210,0.6));
 }
 .Tile6{
   grid-area: '6';
+  background-image: linear-gradient(to bottom, rgba(210, 210, 210,0)40%, rgba(210, 210, 210,0.6));
 }
 .Tile7{
   grid-area: '7';
+  background-image: linear-gradient(to bottom, rgba(170, 210, 210,0)40%, rgba(170, 210, 210,0.6));
 }
 .Tile8{
   grid-area: '8';
+  background-image: linear-gradient(to bottom, rgba(210, 210, 210,0)40%, rgba(210, 210, 210,0.6));
 }
